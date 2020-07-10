@@ -8,12 +8,15 @@ public class Ifdemo {
 		if(a>b) {
 			System.out.println("A is greater than B");
 		}
-		if(a<b) {
+		else {
+			System.out.println("A is less than B");
+		}
+		/*if(a<b) {
 			System.out.println("A is less  than B");
 		}
 		if(a==b) {
 			System.out.println("A is equal to B");
-		}
+		}*/
 	}
 
 }
